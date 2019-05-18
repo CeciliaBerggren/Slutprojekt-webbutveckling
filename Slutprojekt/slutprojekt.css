@@ -1,0 +1,71 @@
+body{
+    background-color: ;
+}
+header{
+    background-color:#fa9e9e;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    height: auto;
+    background-color: #fa9e9e;
+}
+.dropbtn{
+    background-color: aquamarine;
+    padding:16px;
+    font-size: 16px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    z-index: 1;
+    width: 100%;
+}
+.dropdown-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+section{
+    width: 76%;
+    background-color: #fa9e9e;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+
+}
+
+
+aside{
+    width: 10%;
+    background-color: blueviolet;
+    margin-top: 2%;
+    margin-right: 1%;
+    float: left;
+    
+}
+
+.reklam{
+    width: 10%;
+    background-color: rgb(32, 218, 41);
+    margin-top: 2%;
+    margin-left: 1%;
+    float: right;
+    
+}
+
